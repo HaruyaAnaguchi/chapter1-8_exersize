@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.list-area {
+  width: 960px;
+  margin: 50px 0;
+}
+
+.list-box {
+  width: 960px;
+  padding: 20px;
+}
+
+.list-box:nth-child(odd) {
+  background-color: #b5bdb7;
+}
+
+.list-box:nth-child(even) {
+  background-color: #e6ede8;
+}
+
+.box-area {
+  width: 960px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-item {
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: yellow;
+}
+
+.box-item:nth-child(1),.box-item:nth-child(5),.box-item:nth-child(9){
+  background-color: orange;
+}
+
+.box-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.box-item:nth-child(7),.box-item:nth-child(8),.box-item:nth-child(9) {
+  maegin-bottom: 0;
+}
+
+
+
+
+
+
